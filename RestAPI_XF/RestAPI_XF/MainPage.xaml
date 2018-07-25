@@ -1,14 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:RestAPI_XF"
-             x:Class="RestAPI_XF.MainPage">
+<ContentPage
+    x:Class="RestAPI_XF.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:RestAPI_XF">
 
     <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+
+        <ListView x:Name="ListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Order}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+        <StackLayout Orientation="Horizontal">
+            <Button
+                BackgroundColor="Aqua"
+                Clicked="OnAdd"
+                FontAttributes="Bold"
+                FontSize="Italic"
+                Text="Add" />
+
+
+
+        </StackLayout>
+
     </StackLayout>
 
 </ContentPage>

@@ -13,5 +13,10 @@ namespace RestAPI_XF
 		{
 			InitializeComponent();
 		}
+
+	    private void OnAdd(object sender, EventArgs e)
+	    {
+	        throw new NotImplementedException();
+	    }
 	}
 }
