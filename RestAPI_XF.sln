@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAPI_XF.iOS", "RestAPI_X
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAPI_XF.UWP", "RestAPI_XF\RestAPI_XF.UWP\RestAPI_XF.UWP.csproj", "{7FC6C21C-9407-42F1-A13F-5CCDB36EC01C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAPI_XF", "RestAPI_XF\RestAPI_XF\RestAPI_XF.csproj", "{DF871A62-693B-4F1B-AD61-7A9A23C81E36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestAPI_XF", "RestAPI_XF\RestAPI_XF\RestAPI_XF.csproj", "{DF871A62-693B-4F1B-AD61-7A9A23C81E36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -148,7 +148,6 @@ Global
 		{AC456A37-C47E-4283-A9BA-A38E4BD205BE}.AppStore|x86.Build.0 = AppStore|iPhone
 		{AC456A37-C47E-4283-A9BA-A38E4BD205BE}.AppStore|x86.Deploy.0 = AppStore|iPhone
 		{AC456A37-C47E-4283-A9BA-A38E4BD205BE}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
-		{AC456A37-C47E-4283-A9BA-A38E4BD205BE}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{AC456A37-C47E-4283-A9BA-A38E4BD205BE}.Debug|Any CPU.Deploy.0 = Debug|iPhoneSimulator
 		{AC456A37-C47E-4283-A9BA-A38E4BD205BE}.Debug|ARM.ActiveCfg = Debug|iPhone
 		{AC456A37-C47E-4283-A9BA-A38E4BD205BE}.Debug|ARM.Build.0 = Debug|iPhone

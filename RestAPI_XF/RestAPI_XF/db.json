@@ -1,0 +1,15 @@
+﻿{
+  "joborders": [
+    {
+      "id": 1,
+      "serviceorder": "car repair"
+    },
+    {
+      "id": 2,
+      "serviceorder": "machine repair"
+    }
+  ]
+}
+
+
+
