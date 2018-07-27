@@ -10,36 +10,34 @@
         <ListView x:Name="JobListView">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Detail="{Binding Id}" Text="{Binding ServiceOrder}" />
+                    <TextCell Text="{Binding ServiceOrder}" />
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
 
-        <!--<StackLayout Orientation="Horizontal">
+        <StackLayout Orientation="Horizontal">
             <Button
-                BackgroundColor="Aqua"
+                BackgroundColor="LawnGreen"
                 Clicked="OnAdd"
-                FontAttributes="Bold"
-                FontSize="Italic"
                 Text="Add" />
 
             <Button
                 BackgroundColor="BlueViolet"
-                Clicked="OnUpdate"
-                FontAttributes="Bold"
-                FontSize="Italic"
-                Text="Update" />
-
-            <Button
-                BackgroundColor="DarkOrange"
                 Clicked="OnDelete"
-                FontAttributes="Bold"
-                FontSize="Italic"
                 Text="Delete" />
 
+            <Button
+                BackgroundColor="DarkRed"
+                Clicked="OnUpdate"
+                Text="Update" />
 
-        </StackLayout>-->
+
+        </StackLayout>
+
+
+
+
 
     </StackLayout>
 
